@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+}
+a{
+    text-decoration: none;
+    color: #000
+}
+header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+.logo{
+    font-size: 20px;
+}
+.headButtons{
+    display: flex;
+    justify-content: space-between;
+    width: 15vw;
+    height: 100%;
+    align-items: center;
+}
+.headButtons > a {
+    display: flex;
+    border: 1px solid #333;
+    border-radius: 10px;
+    height: 60%;
+    align-items: center;
+}
+.demoButton{
+    width: 40%;
+    background: #333;
+    color: #eee;
+    justify-content: center;
+}
+.priceButton{
+    width: 50%;
+    color: #333;
+    justify-content: center;
+}
+.motivation{
+    background-image: url("images/group1.jpg");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #333;
+}
+.motivTxt{
+    width: 40%;
+}
+.importantMotivation{
+    font-size: 4em;
+    font-weight: bold;
+}
+.otherMotivation{
+    margin: 20px 0;
+    font-size: 1.6em;
+    width: 70%;
+    line-height: 45px;
+}
+.getMoreMotivation{
+    color: #333;
+    font-size: 1.65rem;
+    padding: 5px 30px;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+.preview{
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: #333
+}
+.previewBigTxt{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.previewSmallTxt{
+    font-size: 1.4em;
+    line-height: 45px;
+}
+
+.preview > img {
+    border: 1px solid #333;
+    width: 80%;
+}
+.viewDemo{
+    color: #333;
+    text-decoration: underline;
+}
+
+footer{
+    background: #222;
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+    height: 100px;
+    color: #fff;
+}
